@@ -23,7 +23,7 @@ class UserResponse(UserBase):
     id: int
     role: UserRole
 
-    class Config:
+class Config:
         orm_mode = True
         from_attributes = True
 
